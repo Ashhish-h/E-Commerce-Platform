@@ -1,5 +1,5 @@
 import React from "react";
-import MainCarousel from "../../components/HomeControll/MainCarousel";
+import MainCarousel from "../../components/HomeControl/MainCarousel";
 
 
 export default function HomePage() {
