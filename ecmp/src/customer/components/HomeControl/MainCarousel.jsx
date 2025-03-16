@@ -24,6 +24,10 @@ const MainCarousel = () => (
         mouseTracking
         items={items}
         // responsive={responsive}
+        disableButtonsControls
+        autoPlay
+        autoPlayInterval={1500}
+        infinite
         controlsStrategy="alternate"
     />
 );
