@@ -1,5 +1,7 @@
 import React from "react";
 import MainCarousel from "../../components/HomeControl/MainCarousel";
+import ProductCards from "../../components/ProductCards/ProductCards";
+import ProductCardCarousel from "../../components/ProductCardCarousel/ProductCardCarousel";
 
 
 export default function HomePage() {
@@ -7,9 +9,9 @@ export default function HomePage() {
         <div>
             <MainCarousel />
 
-            {/* <div>
-                other section 
-            </div> */}
+            <div>
+                <ProductCardCarousel />
+            </div>
         </div>
     );
 }
