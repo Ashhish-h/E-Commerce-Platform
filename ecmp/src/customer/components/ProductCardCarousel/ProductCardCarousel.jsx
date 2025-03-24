@@ -4,7 +4,7 @@ import ProductCards from "../ProductCards/ProductCards";
 import KeyboardArrowLeftIcon from "@mui/icons-material/KeyboardArrowLeft";
 import { Button } from "@mui/material";
 
-export default function ProductCardCarousel({data}) {
+export default function ProductCardCarousel({data, sectionName}) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const responsive = {
     // for responsiveness here 0, 720, 1024 are screen sizes and items are number of items to be displayed.
@@ -39,6 +39,7 @@ export default function ProductCardCarousel({data}) {
 
   return (
     <div className="">
+      <h2 className="text-2xl font-extrabold text-gray-800 py-5">{sectionName}</h2>
       <div className="relative p-5">
         <AliceCarousel
           ref={carouselRef} // Attach ref here
