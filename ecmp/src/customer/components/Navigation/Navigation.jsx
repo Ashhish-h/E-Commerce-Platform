@@ -302,7 +302,7 @@ export default function Navigation() {
               <PopoverGroup className="hidden lg:ml-8 lg:block lg:self-stretch">
                 <div className="flex h-full space-x-8">
                   {navigation.categories.map((category) => (
-                    <Popover key={category.name} className="flex">
+                    <Popover key={category.name} className="flex z-50">
                       <div className="relative flex">
                         <PopoverButton className="relative z-10 -mb-px flex items-center border-b-2 border-transparent pt-px text-sm font-medium text-gray-700 transition-colors duration-200 ease-out hover:text-gray-800 data-open:border-indigo-600 data-open:text-indigo-600">
                           {category.name}
